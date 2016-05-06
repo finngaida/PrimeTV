@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C55393EE1CDC7CA10087CA92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55393ED1CDC7CA10087CA92 /* AppDelegate.swift */; };
+		C55393F01CDC7CA10087CA92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55393EF1CDC7CA10087CA92 /* ViewController.swift */; };
+		C55393F31CDC7CA10087CA92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C55393F11CDC7CA10087CA92 /* Main.storyboard */; };
+		C55393F51CDC7CA10087CA92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C55393F41CDC7CA10087CA92 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C55393EA1CDC7CA00087CA92 /* AmazonPrime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmazonPrime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C55393ED1CDC7CA10087CA92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C55393EF1CDC7CA10087CA92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C55393F21CDC7CA10087CA92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C55393F41CDC7CA10087CA92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C55393F61CDC7CA10087CA92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C55393E71CDC7CA00087CA92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C55393E11CDC7CA00087CA92 = {
+			isa = PBXGroup;
+			children = (
+				C55393EC1CDC7CA10087CA92 /* AmazonPrime */,
+				C55393EB1CDC7CA00087CA92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C55393EB1CDC7CA00087CA92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C55393EA1CDC7CA00087CA92 /* AmazonPrime.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C55393EC1CDC7CA10087CA92 /* AmazonPrime */ = {
+			isa = PBXGroup;
+			children = (
+				C55393ED1CDC7CA10087CA92 /* AppDelegate.swift */,
+				C55393EF1CDC7CA10087CA92 /* ViewController.swift */,
+				C55393F11CDC7CA10087CA92 /* Main.storyboard */,
+				C55393F41CDC7CA10087CA92 /* Assets.xcassets */,
+				C55393F61CDC7CA10087CA92 /* Info.plist */,
+			);
+			path = AmazonPrime;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C55393E91CDC7CA00087CA92 /* AmazonPrime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C55393F91CDC7CA10087CA92 /* Build configuration list for PBXNativeTarget "AmazonPrime" */;
+			buildPhases = (
+				C55393E61CDC7CA00087CA92 /* Sources */,
+				C55393E71CDC7CA00087CA92 /* Frameworks */,
+				C55393E81CDC7CA00087CA92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmazonPrime;
+			productName = AmazonPrime;
+			productReference = C55393EA1CDC7CA00087CA92 /* AmazonPrime.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C55393E21CDC7CA00087CA92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Finn Gaida";
+				TargetAttributes = {
+					C55393E91CDC7CA00087CA92 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C55393E51CDC7CA00087CA92 /* Build configuration list for PBXProject "AmazonPrime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C55393E11CDC7CA00087CA92;
+			productRefGroup = C55393EB1CDC7CA00087CA92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C55393E91CDC7CA00087CA92 /* AmazonPrime */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C55393E81CDC7CA00087CA92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55393F51CDC7CA10087CA92 /* Assets.xcassets in Resources */,
+				C55393F31CDC7CA10087CA92 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C55393E61CDC7CA00087CA92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55393F01CDC7CA10087CA92 /* ViewController.swift in Sources */,
+				C55393EE1CDC7CA10087CA92 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C55393F11CDC7CA10087CA92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C55393F21CDC7CA10087CA92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C55393F71CDC7CA10087CA92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		C55393F81CDC7CA10087CA92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C55393FA1CDC7CA10087CA92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = AmazonPrime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.finngaida.AmazonPrime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C55393FB1CDC7CA10087CA92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = AmazonPrime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.finngaida.AmazonPrime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C55393E51CDC7CA00087CA92 /* Build configuration list for PBXProject "AmazonPrime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55393F71CDC7CA10087CA92 /* Debug */,
+				C55393F81CDC7CA10087CA92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C55393F91CDC7CA10087CA92 /* Build configuration list for PBXNativeTarget "AmazonPrime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55393FA1CDC7CA10087CA92 /* Debug */,
+				C55393FB1CDC7CA10087CA92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C55393E21CDC7CA00087CA92 /* Project object */;
+}
